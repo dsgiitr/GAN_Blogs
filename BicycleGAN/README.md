@@ -20,6 +20,6 @@ Many image-to-image translation problems are ambiguous, as a single input image 
 ```
 $ cd data/
 $ bash download_pix2pix_dataset.sh edges2shoes
-$ cd ../BicycleGAN/
+$ cd BicycleGAN/
 $ python3 bicyclegan.py
 ```
