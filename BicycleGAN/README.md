@@ -16,10 +16,16 @@ Many image-to-image translation problems are ambiguous, as a single input image 
 }
 ```
 
-#### Run Example
+#### Run Example For  edges → images task
 ```
 $ cd data/
 $ bash download_pix2pix_dataset.sh edges2shoes
-$ cd BicycleGAN/
+$ cd ../BicycleGAN/
 $ python3 bicyclegan.py
+```
+
+#### Run Example For denoising task
+```
+$ cd BicycleGAN/
+$ python3 Denoising_CIFAR10.py
 ```
